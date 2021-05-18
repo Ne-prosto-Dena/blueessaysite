@@ -1,0 +1,161 @@
+
+
+.color-palit-top {
+	margin-top: 50px;
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+	grid-gap: 20px;
+
+
+	div {
+		width: 50px;
+		height: 50px;
+		background-color: red;
+		border-radius: 50%;
+	}
+	& div:nth-child(5n+1){
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		border-radius: 0%;
+		font-size: 18px
+	}
+	& div:nth-child(17){
+		background-color: $primary-1;
+	}
+	& div:nth-child(12){
+		background-color: $p1-l1;
+	}
+	& div:nth-child(7){
+		background-color: $p1-l2;
+	}
+	& div:nth-child(2){
+		background-color: $p1-l3;
+	}
+	& div:nth-child(22){
+		background-color: $p1-d1;
+	}
+	& div:nth-child(27){
+		background-color: $p1-d2;
+	}
+	& div:nth-child(32){
+		background-color: $p1-d3;
+	}
+
+
+	& div:nth-child(18){
+		background-color: $primary-2;
+	}
+	& div:nth-child(13){
+		background-color: $p2-l1;
+	}
+	& div:nth-child(8){
+		background-color: $p2-l2;
+	}
+	& div:nth-child(3){
+		background-color: $p2-l3;
+	}
+	& div:nth-child(23){
+		background-color: $p2-d1;
+	}
+	& div:nth-child(28){
+		background-color: $p2-d2;
+	}
+	& div:nth-child(33){
+		background-color: $p2-d3;
+	}
+
+
+	& div:nth-child(19){
+		background-color: $primary-3;
+	}
+	& div:nth-child(14){
+		background-color: $p3-l1;
+	}
+	& div:nth-child(9){
+		background-color: $p3-l2;
+	}
+	& div:nth-child(4){
+		background-color: $p3-l3;
+	}
+	& div:nth-child(24){
+		background-color: $p3-d1;
+	}
+	& div:nth-child(29){
+		background-color: $p3-d2;
+	}
+	& div:nth-child(34){
+		background-color: $p3-d3;
+	}
+
+
+	& div:nth-child(20){
+		background-color: $primary-4;
+	}
+	& div:nth-child(15){
+		background-color: $p4-l1;
+	}
+	& div:nth-child(10){
+		background-color: $p4-l2;
+	}
+	& div:nth-child(5){
+		background-color: $p4-l3;
+	}
+	& div:nth-child(25){
+		background-color: $p4-d1;
+	}
+	& div:nth-child(30){
+		background-color: $p4-d2;
+	}
+	& div:nth-child(35){
+		background-color: $p4-d3;
+	}
+}
+.green {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #09a912;
+}
+.red {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #f44747;
+}
+.orange {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #ffaa33;
+}
+.blue {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background-color: #21a5f8;
+}
+
+
+
+
+.header-2 h2{
+	display: inline-block;
+}
+.header-2 h2:first-child {
+	float: left;
+}
+h1 span,h2 span,h3 span,h4 span,h5 span,h6 span,.subtitle span{
+	background-color: $primary-1;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.dquotation {
+	background-color: $p1-l2;
+}
+
+
+
+
+

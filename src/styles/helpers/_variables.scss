@@ -1,0 +1,61 @@
+// colors
+
+$primary-1: #03a9f4;
+$primary-2: #f75e2e;
+$primary-3: #ecfa4d;
+$primary-4: #656a70;
+
+//primary - 1
+$p1-l1:mix(#fff,$primary-1,40%);
+$p1-l2:mix(#fff,$primary-1,75%);
+$p1-l3:mix(#fff,$primary-1,90%);
+
+$p1-d1:mix(#000,$primary-1,20%);
+$p1-d2:mix(#000,$primary-1,50%);
+$p1-d3:mix(#000,$primary-1,70%);
+
+//primary - 2
+
+$p2-l1:mix(#fff,$primary-2,40%);
+$p2-l2:mix(#fff,$primary-2,75%);
+$p2-l3:mix(#fff,$primary-2,90%);
+
+$p2-d1:mix(#000,$primary-2,20%);
+$p2-d2:mix(#000,$primary-2,50%);
+$p2-d3:mix(#000,$primary-2,70%);
+
+//primary - 3
+
+$p3-l1:mix(#fff,$primary-3,40%);
+$p3-l2:mix(#fff,$primary-3,75%);
+$p3-l3:mix(#fff,$primary-3,90%);
+
+$p3-d1:mix(#000,$primary-3,20%);
+$p3-d2:mix(#000,$primary-3,50%);
+$p3-d3:mix(#000,$primary-3,70%);
+
+//primary - 4
+
+$p4-l1:mix(#fff,$primary-4,40%);
+$p4-l2:mix(#fff,$primary-4,75%);
+$p4-l3:mix(#fff,$primary-4,90%);
+
+$p4-d1:mix(#000,$primary-4,20%);
+$p4-d2:mix(#000,$primary-4,50%);
+$p4-d3:mix(#000,$primary-4,70%);
+
+
+// $btn-color:(
+// 	n3rmal:$primary-1,
+// 	hover:$p1-d1,
+// 	active: orange,
+// 	disabled:$p1-l1,
+// );
+
+// $btn-size:(
+// 	normal: 18px,
+// 	hover: 32px,
+// 	active: 45px,
+// 	d4sabled: 12px,
+// 	);
+

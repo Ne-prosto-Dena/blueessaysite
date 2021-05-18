@@ -1,5 +1,146 @@
-h1, h2, h3, h4, h5, h6, ul, body {
-    margin: 0;
-    padding: 0;
+
+
+.white {
+	color: #fff;
 }
 
+h1 {
+	font-size: 35px;
+	font-family: 'PoppinsB';
+	color: $p4-d3;
+}
+
+h2 {
+	font-size: 32px;
+   font-family: 'PoppinsM';
+   color: $p4-d2;
+}
+h3 {
+	font-size: 27px;
+	font-family: 'PoppinsM';
+	font-weight: 600;
+	color: $p4-d3;
+}
+h4 {
+	font-size: 22px;
+	font-family: 'PoppinsM';
+	color: $p4-d3;
+}
+h5 {
+	font-size: 17px;
+	font-family: 'PoppinsM';
+	color: $p4-d3;
+}
+h6 {
+	font-size: 15px;
+	font-family: 'PoppinsM';
+	color: $p4-d3;
+}
+p {
+	font-size: 14px;
+	font-family: 'PoppinsR';
+	color: $p4-d1;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+
+}
+li {
+	font-family: 'PoppinsM';
+	color: $p4-d1;
+	font-size: 15px;
+}
+.fa-check-circle {
+	color: $primary-1;
+	margin-right: 7px;
+
+}
+
+
+
+.subtitle {
+	font-family: 'PoppinsM';
+	font-size: 20px;
+	color: $p4-d1;
+}
+.quotation {
+	font-family: 'PoppinsR';
+	font-size: 17px;
+	color: $p1-d1;
+}
+
+
+
+.btn-1 {
+	background-color: $primary-2;
+	width: 220px;
+	color: #fff;
+}
+.btn-1:hover {
+	background-color: $p2-l1;
+	color: #fff;
+}
+.btn-1:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+
+.btn-2 {
+	background-color: $p1-d1;
+	width: 280px;
+	color: #fff;
+}
+.btn-2:hover {
+	background-color: $p1-l2;
+	color: #fff;
+}
+.btn-2:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+.btn-3 {
+	background-color: $p1-d1;
+	width: 200px;
+	color: #fff;
+}
+.btn-3:hover {
+	background-color: $p1-l2;
+	color: #fff;
+}
+.btn-3:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+.btn-4 {
+	border: 1px solid $primary-2;
+	width: 220px;
+	color: $primary-2;
+}
+.btn-4:hover {
+	border: 1px solid $p2-l1;
+	background-color: $p2-l1;
+	color: #fff;
+}
+.btn-4:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+.btn-5 {
+	border: 1px solid $primary-1;
+	color: $primary-1;
+}
+.btn-5:hover {
+	border: 1px solid $p1-l2;
+	color: #fff;
+	background-color: $p1-l2;
+}
+.btn-5:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
