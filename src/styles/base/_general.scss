@@ -71,76 +71,192 @@ li {
 	color: $p1-d1;
 }
 
-
-
-.btn-1 {
+.btn {
+	font-family: 'PoppinsM';
+}
+.btn-lg {
+	font-size: 14px;
+	height: 50px;
+}
+.btn-sm {
+	font-size: 13px;
+	height: 40px;
+}
+.btn-lg-1 {
 	background-color: $primary-2;
 	width: 220px;
 	color: #fff;
 }
-.btn-1:hover {
+.btn-lg-1:hover {
 	background-color: $p2-l1;
 	color: #fff;
 }
-.btn-1:disabled {
+.btn-lg-1:disabled {
 	background-color: $p4-l3;
 	color: #fff;
 }
 
 
-.btn-2 {
+.btn-lg-2 {
 	background-color: $p1-d1;
 	width: 280px;
 	color: #fff;
 }
-.btn-2:hover {
+.btn-lg-2:hover {
 	background-color: $p1-l2;
 	color: #fff;
 }
-.btn-2:disabled {
+.btn-lg-2:disabled {
 	background-color: $p4-l3;
 	color: #fff;
 }
 
-.btn-3 {
+.btn-lg-3 {
 	background-color: $p1-d1;
 	width: 200px;
 	color: #fff;
 }
-.btn-3:hover {
+.btn-lg-3:hover {
 	background-color: $p1-l2;
 	color: #fff;
 }
-.btn-3:disabled {
+.btn-lg-3:disabled {
 	background-color: $p4-l3;
 	color: #fff;
 }
 
-.btn-4 {
+.btn-lg-4 {
 	border: 1px solid $primary-2;
 	width: 220px;
 	color: $primary-2;
 }
-.btn-4:hover {
+.btn-lg-4:hover {
 	border: 1px solid $p2-l1;
 	background-color: $p2-l1;
 	color: #fff;
 }
-.btn-4:disabled {
+.btn-lg-4:disabled {
 	background-color: $p4-l3;
 	color: #fff;
 }
 
-.btn-5 {
+.btn-lg-5 {
+	width: 220px;
 	border: 1px solid $primary-1;
 	color: $primary-1;
 }
-.btn-5:hover {
+.btn-lg-5:hover {
 	border: 1px solid $p1-l2;
 	color: #fff;
 	background-color: $p1-l2;
 }
-.btn-5:disabled {
+.btn-lg-5:disabled {
 	background-color: $p4-l3;
 	color: #fff;
+}
+
+
+
+
+
+
+
+.btn-sm-1 {
+	background-color: $primary-2;
+	width: 150px;
+	color: #fff;
+}
+.btn-sm-1:hover {
+	background-color: $p2-l1;
+	color: #fff;
+}
+.btn-sm-1:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+
+.btn-sm-2 {
+	background-color: $p1-d1;
+	width: 170px;
+	color: #fff;
+}
+.btn-sm-2:hover {
+	background-color: $p1-l2;
+	color: #fff;
+}
+.btn-sm-2:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+.btn-sm-3 {
+	background-color: $p1-d1;
+	width: 150px;
+	color: #fff;
+}
+.btn-sm-3:hover {
+	background-color: $p1-l2;
+	color: #fff;
+}
+.btn-sm-3:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+.btn-sm-4 {
+	border: 1px solid $primary-2;
+	width: 150px;
+	color: $primary-2;
+}
+.btn-sm-4:hover {
+	border: 1px solid $p2-l1;
+	background-color: $p2-l1;
+	color: #fff;
+}
+.btn-sm-4:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+.btn-sm-5 {
+	width: 150px;
+	border: 1px solid $primary-1;
+	color: $primary-1;
+}
+.btn-sm-5:hover {
+	border: 1px solid $p1-l2;
+	color: #fff;
+	background-color: $p1-l2;
+}
+.btn-sm-5:disabled {
+	background-color: $p4-l3;
+	color: #fff;
+}
+
+
+
+
+
+
+.form-text {
+	width: 320px;
+	height: 50px;
+	font-size: 13px;
+	font-family: 'PoppinsR';
+	color: $p4-l1;
+	background-color: $p4-l3;
+	border: 1px solid $p4-l1;
+}
+.form-text:hover {
+	color: $p4-l1;
+	background-color: #fff;
+}
+.form-text:active {
+	color: $p4-l1;
+	// box-shadow: none;
+	border: 1px solid $primary-1; 
+}
+.form-text-1:active {
+	border: 1px solid $primary-1;
 }
