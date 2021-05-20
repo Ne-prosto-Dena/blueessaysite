@@ -111,18 +111,14 @@
 
 	<input class="form-control form-text form-control-lg" type="text" placeholder="Placeholder text">
 
-	<div class="dropdown">
-  <button class="btn form-text form-text-1 dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-    Placeholder text
-  </button>
-  <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-    <button class="dropdown-item" type="button">Here's an option</button>
-    <button class="dropdown-item" type="button">Another option1</button>
-    <button class="dropdown-item" type="button">Another option2</button>
-    <button class="dropdown-item" type="button">Another option3</button>
-    <button class="dropdown-item" type="button">Another option4</button>
-  </div>
-</div>
+<select class="custom-select form-text form-text-1">
+  <option selected> Placeholder text</option>
+  <option value="1">Here's an option</option>
+  <option value="2">Another option2</option>
+  <option value="3">Another option3</option>
+  <option value="4">Another option4</option>
+</select>
+
 </div>
 
 
@@ -150,4 +146,25 @@
 
 	<button type="button" class="btn btn-sm btn-sm-5">Btn5</button>
 	</div>
+
+
+	<div class="custom-control custom-checkbox mb-3">
+    <input type="checkbox" class="custom-control-input checkboxer" id="customControlValidation1" required>
+    <label class="custom-control-label" for="customControlValidation1">Установите этот настраиваемый флажок</label>
+    <div class="invalid-feedback">Пример неверного текста отзыва</div>
+  </div>
+
+  <div class="custom-control custom-radio">
+    <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
+    <label class="custom-control-label" for="customControlValidation2">Переключить это настраиваемое радио</label>
+  </div>
+  <div class="custom-control custom-radio mb-3">
+    <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
+    <label class="custom-control-label" for="customControlValidation3">Или переключите это другое настраиваемое радио</label>
+    <div class="invalid-feedback">Еще пример недопустимого текста отзыва</div>
+  </div>
+
+
 </div>
+
+

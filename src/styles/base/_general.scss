@@ -71,8 +71,16 @@ li {
 	color: $p1-d1;
 }
 
+
+
+
+
+
 .btn {
 	font-family: 'PoppinsM';
+}
+.btn:focus {
+	box-shadow: none;
 }
 .btn-lg {
 	font-size: 14px;
@@ -259,4 +267,15 @@ li {
 }
 .form-text-1:active {
 	border: 1px solid $primary-1;
+}
+.form-text-1:focus {
+	box-shadow: none;
+}
+
+
+
+
+.checkboxer {
+	width: 25px;
+	height: 25px;
 }
