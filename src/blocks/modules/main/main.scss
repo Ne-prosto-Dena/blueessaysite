@@ -2,4 +2,31 @@ main {
 	background-image: url(../img/icons-transparent.png);
 	background-size: cover;
 	height: 697px;
+	text-align: center;
+	padding-top: 50px;
+}
+.cart {
+	margin-top: 60px;
+	background-color: #fff;
+	width: 360px;
+	height: 310px;
+	margin-right: 30px;
+}
+.cart-text {
+	text-align: center;
+	width: 260px;
+	position: reletive;
+	margin: 0 auto;
+	margin-top: 25px;
+}
+.cart img{
+	margin-top: 38px;
+}
+.container-main .cart:nth-first-child {
+	margin-right: 0;
+}
+.container-main {
+	text-align: center;
+	// justify-content: space-between;
+
 }
