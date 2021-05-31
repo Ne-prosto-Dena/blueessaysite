@@ -1,0 +1,21 @@
+.banner {
+	height: 634px;
+	width: 100%;
+
+	background-image: url(../img/girl-bg.png);
+	background-size: cover;
+}
+.banner>.container>h1 {
+	padding-top: 140px;
+	padding-bottom: 15px;
+}
+.banner>.container>h1>span {
+	color: $primary-1;
+	background-color: rgba(0,0,0,0);
+	padding: 0;
+}
+.banner>.container>div {
+	width: 400px;
+	padding-top: 20px;
+	border-top: 1px solid $p4-l1;
+}
