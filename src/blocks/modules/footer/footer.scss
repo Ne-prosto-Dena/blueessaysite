@@ -1,9 +1,49 @@
+footer {
+	background-color: $primary-1;
+}
 .top-footer {
 	height: 105px;
+	border-bottom: 1px solid $p1-l1;
 }
 .central-footer {
 	height: 370px;
+	justify-content: space-around;
+	border-bottom: 1px solid $p1-l1;
 }
-.botom-footer {
+
+.bottom-footer {
 	height: 125px;
+	// justify-content: space-around;
+	padding-top: 45px;	
+
+}
+
+
+.footer-logo {
+	float: left;
+	padding-top: 15px;
+}
+
+footer ul {
+	display: flex;
+	padding-top: 45px;
+	padding-left: 185px;
+}
+
+footer li {
+	color: #fff;
+	padding-right: 20px;
+}
+.colona {
+	width: 200px;
+	padding-top: 50px;
+}
+.colona h5 {
+	padding-bottom: 25px;
+}
+
+.phone-number img, .email img {
+	float: left;
+	padding-right: 20px;	
+
 }
