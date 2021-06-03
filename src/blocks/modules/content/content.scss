@@ -15,3 +15,22 @@
 .content h1{
 	padding-bottom: 30px;
 }
+
+.content-serch{
+	background-color: $primary-1;
+	width: 1200px;
+	height: 135px;
+	position: absolute;
+	top: 660px;
+	left: 350px;
+	padding-left: 28px;
+	padding-top: 35px;
+
+}
+.content-serch select {
+	// margin-left: 28px;
+	margin-right: 28px;
+}
+.content-serch select:nth-last-child {
+	// margin-right: 28px;
+}
